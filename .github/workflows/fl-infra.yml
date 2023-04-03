@@ -20,7 +20,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"RTc8Q~eAPL0jVOKDEOw1Ap0jEQX5rUHHcovDGcWg","clientSecret":"RTc8Q~eAPL0jVOKDEOw1Ap0jEQX5rUHHcovDGcWg","subscriptionId":"d8a028c8-5d18-4673-8524-e68732c4a04a","tenantId":"d48f2fdb-cd54-4bef-917f-600541d87d4f"}'
+        creds: '{"clientId":"87e028d8-e920-4e11-b339-58bc6d8b8834","clientSecret":"RTc8Q~eAPL0jVOKDEOw1Ap0jEQX5rUHHcovDGcWg","subscriptionId":"d8a028c8-5d18-4673-8524-e68732c4a04a","tenantId":"d48f2fdb-cd54-4bef-917f-600541d87d4f"}'
     - name: Provision resources
       run: |
         az configure --defaults group="${{ github.event.inputs.resource_group }}"
