@@ -20,7 +20,7 @@ jobs:
     - name: Azure login
       uses: azure/login@v1
       with:
-        creds: '{"clientId":"9218c96c-988c-4602-8805-e5b27ea46b85","clientSecret":"mL88Q~~CPE6MMRFRuVQ9YeqABltiOIwrp4u4zdiK","subscriptionId":"d8a028c8-5d18-4673-8524-e68732c4a04a","tenantId":"d48f2fdb-cd54-4bef-917f-600541d87d4f"}'
+        creds: '{"clientId":"3df1cb10-d191-443e-a16c-2a4a0a3be2f5","clientSecret":"1Th8Q~NBef_6WRaPgYhyQELwpbtigTHRqjMIxbsC","subscriptionId":"d8a028c8-5d18-4673-8524-e68732c4a04a","tenantId":"d48f2fdb-cd54-4bef-917f-600541d87d4f"}'
     - name: Provision resources
       run: |
         clients=( europe asia us)
